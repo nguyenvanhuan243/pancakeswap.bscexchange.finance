@@ -69,7 +69,7 @@ const App: React.FC = () => {
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Switch>
             <Route path="/" exact>
-              <Lottery />
+              <Home />
             </Route>
             <Route exact path="/farms/auction">
               <FarmAuction />
@@ -86,9 +86,9 @@ const App: React.FC = () => {
             {/* <Route path="/ifo">
               <Ifos />
             </Route> */}
-            {/* <Route path="/collectibles">
+            <Route path="/collectibles">
               <Collectibles />
-            </Route> */}
+            </Route>
             {/* <Route exact path="/teams">
               <Teams />
             </Route> */}
@@ -131,7 +131,7 @@ const App: React.FC = () => {
             <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 
             {/* Redirect */}
-            {/* <Route path="/pool">
+            <Route path="/pool">
               <Redirect to="/liquidity" />
             </Route>
             <Route path="/staking">
@@ -142,7 +142,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/nft">
               <Redirect to="/collectibles" />
-            </Route> */}
+            </Route>
 
             {/* 404 */}
             <Route component={NotFound} />

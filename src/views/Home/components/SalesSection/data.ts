@@ -5,12 +5,12 @@ export const swapSectionData: SalesSectionProps = {
   bodyText: 'Trade any token on Binance Smart Chain in seconds, just by connecting your wallet.',
   reverse: false,
   primaryButton: {
-    to: '/swap',
-    text: 'Trade Now',
+    to: '/lottery',
+    text: 'Lottery Now',
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: '#',
     text: 'Learn',
     external: true,
   },
@@ -34,7 +34,7 @@ export const earnSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/products/yield-farming',
+    to: '#',
     text: 'Learn',
     external: true,
   },
@@ -59,7 +59,7 @@ export const cakeSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/tokenomics/cake',
+    to: '#',
     text: 'Learn',
     external: true,
   },
