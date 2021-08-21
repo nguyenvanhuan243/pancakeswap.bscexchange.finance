@@ -32,7 +32,7 @@ const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 const FarmAuction = lazy(() => import('./views/FarmAuction'))
 const Lottery = lazy(() => import('./views/Lottery'))
-const Ifos = lazy(() => import('./views/Ifos'))
+// const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
 const Collectibles = lazy(() => import('./views/Collectibles'))
 const Teams = lazy(() => import('./views/Teams'))
@@ -69,7 +69,7 @@ const App: React.FC = () => {
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Switch>
             <Route path="/" exact>
-              <Home />
+              <Lottery />
             </Route>
             <Route exact path="/farms/auction">
               <FarmAuction />
@@ -83,25 +83,25 @@ const App: React.FC = () => {
             <Route path="/lottery">
               <Lottery />
             </Route>
-            <Route path="/ifo">
+            {/* <Route path="/ifo">
               <Ifos />
-            </Route>
-            <Route path="/collectibles">
+            </Route> */}
+            {/* <Route path="/collectibles">
               <Collectibles />
-            </Route>
-            <Route exact path="/teams">
+            </Route> */}
+            {/* <Route exact path="/teams">
               <Teams />
-            </Route>
-            <Route path="/teams/:id">
+            </Route> */}
+            {/* <Route path="/teams/:id">
               <Team />
-            </Route>
-            <Route path="/profile">
+            </Route> */}
+            {/* <Route path="/profile">
               <Profile />
             </Route>
             <Route path="/competition">
               <TradingCompetition />
-            </Route>
-            <Route path="/prediction">
+            </Route> */}
+            {/* <Route path="/prediction">
               <Predictions />
             </Route>
             <Route exact path="/voting">
@@ -112,7 +112,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/voting/proposal/:id">
               <Proposal />
-            </Route>
+            </Route> */}
 
             {/* Using this format because these components use routes injected props. We need to rework them with hooks */}
             <Route exact strict path="/swap" component={Swap} />
@@ -131,7 +131,7 @@ const App: React.FC = () => {
             <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 
             {/* Redirect */}
-            <Route path="/pool">
+            {/* <Route path="/pool">
               <Redirect to="/liquidity" />
             </Route>
             <Route path="/staking">
@@ -142,7 +142,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/nft">
               <Redirect to="/collectibles" />
-            </Route>
+            </Route> */}
 
             {/* 404 */}
             <Route component={NotFound} />
