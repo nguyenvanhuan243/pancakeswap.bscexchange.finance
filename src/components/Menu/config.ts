@@ -21,26 +21,46 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
     ],
   },
-  // {
-  //   label: t('Pools'),
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
+  {
+    label: t('Pools'),
+    icon: 'PoolIcon',
+    href: '/pools',
+  },
   {
     label: t('Lottery'),
     icon: 'TicketIcon',
     href: '/lottery',
   },
-  // {
-  //   label: t('More'),
-  //   icon: 'MoreIcon',
-    // items: [
-    //   {
-    //     label: t('Contact'),
-    //     href: 'htps://hocvienstock.com',
-    //   },
-    // ],
-  // },
+  {
+    label: t('NFT MarketPlace'),
+    icon: 'NftIcon',
+    href: '/nfts',
+  },
+  {
+    label: t('Farms'),
+    icon: 'FarmIcon',
+    href: '/farms',
+  },
+  {
+    label: t('Ifo'),
+    icon: 'IfoIcon',
+    href: '/ifo',
+  },
+  {
+    label: t('Prediction'),
+    icon: 'IfoIcon',
+    href: '/prediction',
+  },
+  {
+    label: t('More'),
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: t('Contact'),
+        href: 'htps://hocvienstock.com',
+      },
+    ],
+  },
 ]
 
 export default config
