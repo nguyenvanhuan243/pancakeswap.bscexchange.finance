@@ -55,7 +55,7 @@ const Home: React.FC = () => {
         index={2}
         hasCurvedDivider={false}
       >
-        <Footer />
+        {/* <Footer /> */}
       </PageSection>
     </>
   )

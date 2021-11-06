@@ -23,9 +23,9 @@ const Voting = () => {
       <Content>
         <Proposals />
       </Content>
-      <Chrome>
+      {/* <Chrome>
         <Footer />
-      </Chrome>
+      </Chrome> */}
     </Flex>
   )
 }

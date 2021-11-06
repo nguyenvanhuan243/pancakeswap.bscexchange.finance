@@ -5,14 +5,14 @@ export const swapSectionData: SalesSectionProps = {
   bodyText: 'Just connect your wallet and Trade',
   reverse: false,
   primaryButton: {
-    to: '/lottery',
-    text: 'Lottery Now',
+    to: '/swap',
+    text: 'Trade Now',
     external: false,
   },
   secondaryButton: {
-    to: '#',
-    text: 'Learn',
-    external: true,
+    to: '',
+    text: '',
+    external: false,
   },
   images: {
     path: '/images/home/trade/',
