@@ -3,7 +3,7 @@ import { Language } from '@pancakeswap/uikit'
 // export const AR: Language = { locale: 'ar-SA', language: 'العربية', code: 'ar' }
 // export const BN: Language = { locale: 'bn-BD', language: 'বাংলা', code: 'bn' }
 export const EN: Language = { locale: 'en-US', language: 'English', code: 'en' }
-export const VI: Language = { locale: 'vi-VN', language: 'Tiếng Việt', code: 'vi' }
+// export const VI: Language = { locale: 'vi-VN', language: 'Tiếng Việt', code: 'vi' }
 // export const DE: Language = { locale: 'de-DE', language: 'Deutsch', code: 'de' }
 // export const EL: Language = { locale: 'el-GR', language: 'Ελληνικά', code: 'el' }
 // export const ESES: Language = { locale: 'es-ES', language: 'Español', code: 'es-ES' }
@@ -33,7 +33,7 @@ export const languages = {
   // 'ar-SA': AR,
   // 'bn-BD': BN,
   'en-US': EN,
-  'vi-VN': VI,
+  // 'vi-VN': VI,
   // 'de-DE': DE,
   // 'el-GR': EL,
   // 'es-ES': ESES,
