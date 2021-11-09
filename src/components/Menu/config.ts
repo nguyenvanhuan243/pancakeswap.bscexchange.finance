@@ -26,11 +26,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: t('Lottery'),
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
+  // {
+  //   label: t('Lottery'),
+  //   icon: 'TicketIcon',
+  //   href: '/lottery',
+  // },
   {
     label: t('NFT MarketPlace'),
     icon: 'NftIcon',
