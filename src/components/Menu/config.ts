@@ -34,7 +34,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
     label: t('NFT MarketPlace'),
     icon: 'NftIcon',
-    href: '/nfts',
+    href: '/collectibles',
   },
   {
     label: t('Farms'),
