@@ -273,16 +273,16 @@ const farms: FarmConfig[] = [
     token: tokens.sps,
     quoteToken: tokens.wbnb,
   },
-  {
-    pid: 431,
-    lpSymbol: 'C98-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x92247860A03F48d5c6425c7CA35CDcFCB1013AA1',
-    },
-    token: tokens.c98,
-    quoteToken: tokens.wbnb,
-  },
+  // {
+  //   pid: 431,
+  //   lpSymbol: 'C98-BNB LP',
+  //   lpAddresses: {
+  //     97: '',
+  //     56: '0x92247860A03F48d5c6425c7CA35CDcFCB1013AA1',
+  //   },
+  //   token: tokens.c98,
+  //   quoteToken: tokens.wbnb,
+  // },
   {
     pid: 430,
     lpSymbol: 'AXS-BNB LP',

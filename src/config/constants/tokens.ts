@@ -73,6 +73,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
   },
+  bscx: {
+    symbol: 'bscx',
+    address: {
+      56: '0x1E6DF60041Bdb0D7F3704F34BeF171EFdadE1081',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://pancakeswap.finance/',
+  },
   babycake: {
     symbol: 'BABYCAKE',
     address: {
@@ -567,15 +576,6 @@ const tokens = {
     },
     decimals: 17,
     projectLink: 'https://www.1-b.tc/',
-  },
-  bscx: {
-    symbol: 'BSCX',
-    address: {
-      56: '0x5Ac52EE5b2a633895292Ff6d8A89bB9190451587',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://bscex.org/',
   },
   ten: {
     symbol: 'TEN',
@@ -1854,15 +1854,6 @@ const tokens = {
     },
     decimals: 18,
     projectLink: 'https://axieinfinity.com/',
-  },
-  c98: {
-    symbol: 'c98',
-    address: {
-      56: '0xaec945e04baf28b135fa7c640f624f8d90f1c3a6',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://coin98.com/',
   },
   pots: {
     symbol: 'POTS',
