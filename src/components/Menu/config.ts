@@ -57,7 +57,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'htps://hocvienstock.com',
+        href: '#',
       },
     ],
   },

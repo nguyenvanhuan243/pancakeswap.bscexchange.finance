@@ -74,9 +74,9 @@ const App: React.FC = () => {
             <Route exact path="/farms/auction">
               <FarmAuction />
             </Route>
-            <Route path="/farms">
+            {/* <Route path="/farms">
               <Farms />
-            </Route>
+            </Route> */}
             <Route path="/pools">
               <Pools />
             </Route>

@@ -21,7 +21,8 @@ const Collectibles = () => {
           {t('BscExchange Collectibles')}
         </Heading>
       </StyledHero>
-      <NftList />
+      Comming Soon
+      {/* <NftList /> */}
     </Page>
   )
 }
