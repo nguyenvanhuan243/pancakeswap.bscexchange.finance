@@ -25,7 +25,7 @@ const pools: PoolConfig[] = [
       56: '0x1E6DF60041Bdb0D7F3704F34BeF171EFdadE1081',
     },
     poolCategory: PoolCategory.CORE,
-    harvest: true,
+    harvest: false,
     tokenPerBlock: '8.02153493',
     sortOrder: 2,
     isFinished: false,
