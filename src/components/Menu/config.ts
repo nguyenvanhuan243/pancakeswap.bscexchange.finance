@@ -21,36 +21,36 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
     ],
   },
-  {
-    label: t('Pools'),
-    icon: 'PoolIcon',
-    href: '/pools',
-  },
+  // {
+  //   label: t('Pools'),
+  //   icon: 'PoolIcon',
+  //   href: '/pools',
+  // },
   // {
   //   label: t('Lottery'),
   //   icon: 'TicketIcon',
   //   href: '/lottery',
   // },
-  {
-    label: t('NFT MarketPlace'),
-    icon: 'NftIcon',
-    href: '/collectibles',
-  },
-  {
-    label: t('Farms'),
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: t('Ifo'),
-    icon: 'IfoIcon',
-    href: '/ifo',
-  },
-  {
-    label: t('Prediction'),
-    icon: 'IfoIcon',
-    href: '/prediction',
-  },
+  // {
+  //   label: t('NFT MarketPlace'),
+  //   icon: 'NftIcon',
+  //   href: '/collectibles',
+  // },
+  // {
+  //   label: t('Farms'),
+  //   icon: 'FarmIcon',
+  //   href: '/farms',
+  // },
+  // {
+  //   label: t('Ifo'),
+  //   icon: 'IfoIcon',
+  //   href: '/ifo',
+  // },
+  // {
+  //   label: t('Prediction'),
+  //   icon: 'IfoIcon',
+  //   href: '/prediction',
+  // },
   {
     label: t('More'),
     icon: 'MoreIcon',
