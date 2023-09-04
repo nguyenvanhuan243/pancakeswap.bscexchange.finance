@@ -26,6 +26,10 @@ const AppHeaderContainer = styled(Flex)`
 const AppHeader: React.FC<Props> = ({ title, subtitle, helper, backTo, noConfig = false }) => {
   const [expertMode] = useExpertModeManager()
 
+  const rebuildTest = () =>{
+    console.log("retest")
+  }
+
   return (
     <AppHeaderContainer>
       <Flex alignItems="center" mr={noConfig ? 0 : '16px'}>
